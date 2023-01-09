@@ -4,41 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Cadastro</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <main>
-    <header>
-        <h1>Formulário de Cadastro</h1>
-    </header>
-    <form class="form">
-        <div class="card">
-            <div class="card-top">
-                <img class="imglogin" src="./img/Login.jpg" alt="">
-                <h2>Login de Acesso</h2>
-                <p>Acessar com Usuário</p>
-            </div>   
-            <div class="card-group">   
-                <label for="text">Nome</label>      
-                <input type="text" placeholder="Nome Completo"> <br/>
-                <label for="email">Seu E-mail</label>
-                <input id="email" type="email" placeholder="Digite seu E-mail">
-            </div>
-            <div class="password">
-                <label for="text">Senha</label> <br/>
-                <input type="password" name="senha" placeholder="Digite sua Senha">
-            </div>
-            <div class="checkbox">
-                <label><input type="checkbox">Lembre-me</label>            
-            </div>
-            <div class="bunton">
-                <button type="env">Cadastrar</button>
-                <button type="reset" >Limpar</button>
-            </div>
-        </div>
+        <div class="form">
+            <form>
+                <h2 class="title">Formulário de Cadastrar</h2>
+                <label for="text">Nome</label>
+                <div class="input">
+                    <input id="username" name="username" placeholder="username" type="text">
+                </div>
+                <label for="email">E-mail</label>
+                <div class="input">
+                    <input id="email" name="email" placeholder="E-mail" type="text">
+                </div>
+                <label for="">Senha</label>
+                <div class="input">
+                    <input id="senha" name="senha" placeholder="password" type="password">
+                </div>
+                <div class="btn">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </div>
 
-    </form>
+            </form>
+        </div>
     </main>
 </body>
 </html>

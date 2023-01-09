@@ -1,52 +1,66 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
 body{
-    background-color: white;
-    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #ffce51, blue ,green, blue, green, #ffce51);
 }
 
 .form{
-    width: 400px;
-    margin: auto;
-    padding: 40px;
+    position: relative;
+    top: 15vh;
+    left: 90vh;
+    transform: translate(-15%, -10%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    align-items: center;
+    color: #2b344b;
+
 }
 
-.card{
-    box-shadow: 1px 1px 5px;
-    background-color: bisque;
-    padding: 30px;
-    border: 5px;
+.title{
+    font-size: 1,8em;
+    margin-bottom: 10%;
 }
 
-.card-top{
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translateY(-10%);
+    color: #2b344b;
+    font-size: 11pt;
+}
+
+.btn{
+    margin-top: 10%;
+    width: 100%;
     text-align: center;
 }
 
-.card-group{
-    margin-bottom: 10px;
-}
-
-.card-group >label{
-    width: 100px;
-    color: rgba(33, 19, 6, 0.572);
-    display: block;
-    padding: 5px;
-}
-
-.password{
-    color: rgba(33, 19, 6, 0.572);
-    padding: 5px;
-}
-
-.card-group >input{
-border-radius: 5px;
-outline: 0;
-width: 100%;
-height: 20px;
-padding: 5px;
-}
-
-
-.imglogin{
-    border-radius: 50px;
-    width: 100px;
-    box-shadow: 0px 0px 5px black;
+.btn button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30%;
+    height: 20px;
+    border: none;
+    font-size: 1,2em;
+    color: black;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
 }
