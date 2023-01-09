@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+}
+
+.card{
+    box-shadow: 1px 1px 5px;
+    background-color: bisque;
+    padding: 30px;
+    border: 5px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group >label{
+    width: 100px;
+    color: rgba(33, 19, 6, 0.572);
+    display: block;
+    padding: 5px;
+}
+
+.password{
+    color: rgba(33, 19, 6, 0.572);
+    padding: 5px;
+}
+
+.card-group >input{
+border-radius: 5px;
+outline: 0;
+width: 100%;
+height: 20px;
+padding: 5px;
+}
+
+
+.imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 0px 0px 5px black;
+}
